@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<title>14-3A917010</title>
+<meta charset="utf-8">
+<style>
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none; 
+}
+.menu {
+    font-family: '標楷體';
+    font-size: 20px;
+}
+.menu > li { /*子選擇器，只有第一層*/
+    float: left;
+}
+.menu li {
+    position: relative;
+    padding: 0px;
+    border: lightblue 1px dashed;
+    min-width: 120px;
+}
+.menu ul {
+    position: absolute;
+    z-index: 10;
+    top: 100%;
+    display:none; /*預設ul不顯示*/
+}
+.menu ul li> ul {/*定義上一層ul li與下一層ul的距離*/
+    z-index: 20;
+    top: 5%;
+    left: 95%;
+}
+.menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: darkgray;
+    background-size: cover;
+    color: black;
+}
+.menu a:hover {
+    background-image: url(img/btn2.png);
+    background-size: cover;
+    color: white;
+}
+.menu li:hover > ul {
+    display: block; /*移動到li，li下一層的ul才顯示*/
+}
+body{
+        background-image:url(img/mi.jpg);
+    }
+</style>
+</head>
+<body style="color:rgb(255, 255, 255);">
+<div style="text-align:center;"><h1>HK P7手槍</h1></div>
+<ul class="menu">
+    <li><a href="#">手槍介紹</a>
+        <ul>
+            <li><a href="Handgun-1.html">貝瑞塔92手槍</a></li>
+            <li><a href="Handgun-2.html">格洛克17手槍</a></li>
+            <li><a href="Handgun-3.html">柯特OHWS半自動手槍</a></li>
+            <li><a href="Handgun-4.html">P229型手槍</a></li>
+            <li><a href="Handgun-5.html">92式手槍</a></li>
+            <li><a href="Handgun-6.html">HK P7手槍</a></li>
+        </ul>
+    </li>
+    <li><a href="#">步槍介紹</a>
+        <ul>
+            <li><a href="#">AK47</a></li>
+            <li><a href="#">M16突擊步槍</a></li>
+            <li><a href="#">HK G36突擊步槍</a></li>
+            <li><a href="#">FAMAS突擊步槍</a></li>
+            <li><a href="#">T91戰鬥步槍</a></li>
+            <li><a href="#">AUG突擊步槍</a></li>
+        </ul>
+    </li>
+    <li><a href="#">機槍介紹</a>
+        <ul>
+            <li><a href="#">MG08重機槍</a></li>
+            <li><a href="#">HK MG4輕機槍</a></li>
+            <li><a href="#">ZB26式輕機槍</a></li>
+            <li><a href="#">M134迷你砲機槍</a></li>
+            <li><a href="#">白朗寧M2重機槍</a></li>
+            <li><a href="#">內蓋夫輕機槍</a></li>
+        </ul>
+    </li>
+    <li><a href="#">狙擊槍介紹</a>
+        <ul>
+            <li><a href="#">M82狙擊步槍</a></li>
+            <li><a href="#">SSG 69狙擊步槍</a></li>
+            <li><a href="#">AWM狙擊步槍</a></li>
+            <li><a href="#">M95狙擊步槍</a></li>
+            <li><a href="#">TRG狙擊步槍</a></li>
+            <li><a href="#">M24狙擊步槍</a></li>
+        </ul>
+    </li>
+    <li><a href="#">霰彈槍介紹</a>
+        <ul>
+            <li><a href="#">M1216半自動霰彈槍</a></li>
+            <li><a href="#">M870泵動式霰彈槍</a></li>
+            <li><a href="#">AA-12自動霰彈槍</a></li>
+            <li><a href="#">M1887槓桿式霰彈槍</a></li>
+            <li><a href="#">M1897泵動式霰彈槍</a></li>
+            <li><a href="#">莫斯伯格500泵動式霰彈槍</a></li>
+        </ul>
+    </li>
+    <li><a href="index.html">回首頁</a></li>
+</ul>
+<p><br><br><br><img src="img/HG6.jfif" height="200px">
+    <br>1972年慕尼黑慘案發生後，西德警方決定採購一種新型的警用手槍以取代原先使用的7.65公釐手槍，他們要求這種手槍使用9公釐帕拉貝倫彈。這一標準後來被稱為警用自動裝填手槍（德語：Polizei Selbstlade Pistole，PSP），警方的標準里還要求這種新型手槍的重量不得超過1公斤，尺寸不得超過180×130×34公釐。槍口動能不得低於500焦耳，使用壽命至少1萬發。還要求這種手槍在安全可靠的同時能夠快速開火。黑克勒-科赫在1971年所開發的HK4型手槍基礎之上，重新設計了一種將握把保險裝置移動到前部的手槍，並將其命名為PSP手槍參與競爭。總共有三種手槍獲選，各地警方可以根據自己的實際需要在這三種手槍中任選一種裝備。它們是華瑟P5，西格紹爾公司的P225（警方編號P6）以及HK的PSP。最初的239隻手槍採用的是PSP這個名稱，編號250以上的手槍則將標號改為了P7。1979年之後，P7手槍開始進行批量生產。除警察外，反恐特警隊GSG 9和德國聯邦國防軍陸軍的特種部隊也採購了P7手槍。希臘的製造商按照P7M8的圖紙生產了EP7型手槍，這也是希臘警方的制式手槍。墨西哥的製造商在獲得了黑克勒-科赫的許可證後也在當地自行生成P7手槍。
+    <dl>P7手槍是一種以氣體延遲後座原理工作的半自動手槍。氣體延遲後座仍然屬於反衝作用，手槍射擊時槍管和槍機都處於自由活動狀態。彈頭被發射出去後，槍機與滑套在後坐力的作用下後退。發射藥的高壓燃氣通過一個小孔進入槍管下方的小腔室後發生膨脹，腔室一頭通過一個活塞同滑套壁相連，另一頭則連著手槍的其他部位。這樣，在燃氣的壓力作用下，滑套後退的力量就被減緩了。當子彈飛出槍口後，槍管和腔室內的氣體外泄，壓力下降，滑套的後座恢復正常。這一設計帶來的主要好處是延遲了後坐力，增加了手槍射擊時的精準度，但缺點是增加了成本，同時要求子彈的裝藥量不得低於標準值，否則會導致手槍無法完成後座，造成卡彈等後果。
+    <dt><br>P7的另一項特殊設計是它的握把保險。P7沒有單獨的保險杆，也沒有外露的擊錘。握把保險位於扳機護圈的下方，使用時以中指、無名指的力量將其按下。之後保險帶動保險鎖向上抬起，擊針被釋放。如果繼續按壓握把保險，P7的兩段式擊針後繼續後退至後半段露出手槍。當按下握把保險後，手槍尾部的待擊指示器（擊針後半段）會向外突出並發出一聲輕響，表示此時可以擊發，除此以外的狀態都是安全模式。無論是先按扳機再按保險，還是先按保險再扣動扳機，或是兩者同時進行，都可以完成發射工作。保險握把的開啟壓力為70牛頓，但是將其按下後，只要20牛頓的力量便可以將其維持在待擊狀態。
+    <dt><br>P7的槍身採用回火鋼製成，彈匣等零件由鍛壓工藝製造，槍管則採用冷鍛工藝。槍管內是獨特的六角形膛線，纏距為250公釐。該槍還擁有無彈後定功能，打完最後一發子彈後槍機滑套會停留在後方等待子彈上膛。握把保險也兼具無彈後定解鎖裝置的功能，無論有沒有裝填子彈，按下保險後滑套便會復原。這把槍左右對稱，可以供雙手使用。
+    <dt><br>特點：1.後坐力小 2.安全性好 3.精度好。
+    </dl></p>
+</body>
+</html>

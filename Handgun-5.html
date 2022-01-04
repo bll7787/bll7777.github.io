@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<title>14-3A917010</title>
+<meta charset="utf-8">
+<style>
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none; 
+}
+.menu {
+    font-family: '標楷體';
+    font-size: 20px;
+}
+.menu > li { /*子選擇器，只有第一層*/
+    float: left;
+}
+.menu li {
+    position: relative;
+    padding: 0px;
+    border: lightblue 1px dashed;
+    min-width: 120px;
+}
+.menu ul {
+    position: absolute;
+    z-index: 10;
+    top: 100%;
+    display:none; /*預設ul不顯示*/
+}
+.menu ul li> ul {/*定義上一層ul li與下一層ul的距離*/
+    z-index: 20;
+    top: 5%;
+    left: 95%;
+}
+.menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: darkgray;
+    background-size: cover;
+    color: black;
+}
+.menu a:hover {
+    background-image: url(img/btn2.png);
+    background-size: cover;
+    color: white;
+}
+.menu li:hover > ul {
+    display: block; /*移動到li，li下一層的ul才顯示*/
+}
+body{
+        background-image:url(img/mi.jpg);
+    }
+</style>
+</head>
+<body style="color:rgb(255, 255, 255);">
+<div style="text-align:center;"><h1>92式手槍</h1></div>
+<ul class="menu">
+    <li><a href="#">手槍介紹</a>
+        <ul>
+            <li><a href="Handgun-1.html">貝瑞塔92手槍</a></li>
+            <li><a href="Handgun-2.html">格洛克17手槍</a></li>
+            <li><a href="Handgun-3.html">柯特OHWS半自動手槍</a></li>
+            <li><a href="Handgun-4.html">P229型手槍</a></li>
+            <li><a href="Handgun-5.html">92式手槍</a></li>
+            <li><a href="Handgun-6.html">HK P7手槍</a></li>
+        </ul>
+    </li>
+    <li><a href="#">步槍介紹</a>
+        <ul>
+            <li><a href="#">AK47</a></li>
+            <li><a href="#">M16突擊步槍</a></li>
+            <li><a href="#">HK G36突擊步槍</a></li>
+            <li><a href="#">FAMAS突擊步槍</a></li>
+            <li><a href="#">T91戰鬥步槍</a></li>
+            <li><a href="#">AUG突擊步槍</a></li>
+        </ul>
+    </li>
+    <li><a href="#">機槍介紹</a>
+        <ul>
+            <li><a href="#">MG08重機槍</a></li>
+            <li><a href="#">HK MG4輕機槍</a></li>
+            <li><a href="#">ZB26式輕機槍</a></li>
+            <li><a href="#">M134迷你砲機槍</a></li>
+            <li><a href="#">白朗寧M2重機槍</a></li>
+            <li><a href="#">內蓋夫輕機槍</a></li>
+        </ul>
+    </li>
+    <li><a href="#">狙擊槍介紹</a>
+        <ul>
+            <li><a href="#">M82狙擊步槍</a></li>
+            <li><a href="#">SSG 69狙擊步槍</a></li>
+            <li><a href="#">AWM狙擊步槍</a></li>
+            <li><a href="#">M95狙擊步槍</a></li>
+            <li><a href="#">TRG狙擊步槍</a></li>
+            <li><a href="#">M24狙擊步槍</a></li>
+        </ul>
+    </li>
+    <li><a href="#">霰彈槍介紹</a>
+        <ul>
+            <li><a href="#">M1216半自動霰彈槍</a></li>
+            <li><a href="#">M870泵動式霰彈槍</a></li>
+            <li><a href="#">AA-12自動霰彈槍</a></li>
+            <li><a href="#">M1887槓桿式霰彈槍</a></li>
+            <li><a href="#">M1897泵動式霰彈槍</a></li>
+            <li><a href="#">莫斯伯格500泵動式霰彈槍</a></li>
+        </ul>
+    </li>
+    <li><a href="index.html">回首頁</a></li>
+</ul>
+<p><br><br><br><img src="img/HG5.jpeg" height="200px">
+    <br>92式手槍的研發約在1994年開始，92式的機械結構吸收了貝瑞塔92F／FS的設計，而在外型上則與HK USP相似，分為三種版本。
+    <dl>一種版本是發射DAP92式9公釐普通彈（與9公釐帕拉貝倫彈通用），型號為QSZ-92-9，於1998年完成設計。
+    <dt><br>另一種為發射5.8公釐子彈的QSZ-92-5.8，使用的子彈為DAP92式5.8公釐普通彈，對防彈護具的穿透力比9公釐彈高，於2000年完成設計。
+    <dt><br>92式有一種外銷型，名為NP42，按照美軍標準重新設計，主要是提高了精度及穩定性，於2004年完成設計。
+    <dt><br>與西方國家知名的半自動手槍相比之下，92式的槍管壽命只有3,000發，遠低於如克拉克17和貝瑞塔92的最少10,000發。另外，該槍的品質控制和使用上的可靠性也較差，尤其92式採用類似斯捷奇金自動手槍的雙排雙進彈匣與9公釐子彈的不匹配問題嚴重（但在本手槍的5.8公釐版本就相對穩定），導致經常發生卡彈故障，以致遭到部份中國大陸執法機關使用者的詬病。新疆的特警甚至還直接引進克拉克17取代92式；而廠方也因應9公釐版本的可靠性問題也推出了92G手槍，改進部份是改回了雙排單進彈匣、改變握把設計和改用皮卡汀尼導軌，才明顯改善了92式原本卡殼問題並略為增加射擊穩定性。
+    <dt><br>92式在1990末開始部份地裝備於中國人民解放軍及武警等部隊中，並在1999年12月20日澳門主權移交時首次亮相，為中國人民解放軍駐澳門部隊的標準裝備；縮小型的CS/LP5已列入公安部裝備採購清單，未來將有取代64式手槍和77式手槍之勢。
+    <dt><br>特點：1.槍彈侵切力好，結構設計優化，採用全塑料握把 2.組件化結構，具有彈性發射支架，可吸收後坐能量，降低後坐力，有利於提高射擊精度。
+    </dl></p>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<title>14-3A917010</title>
+<meta charset="utf-8">
+<style>
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none; 
+}
+.menu {
+    font-family: '標楷體';
+    font-size: 20px;
+}
+.menu > li { /*子選擇器，只有第一層*/
+    float: left;
+}
+.menu li {
+    position: relative;
+    padding: 0px;
+    border: lightblue 1px dashed;
+    min-width: 120px;
+}
+.menu ul {
+    position: absolute;
+    z-index: 10;
+    top: 100%;
+    display:none; /*預設ul不顯示*/
+}
+.menu ul li> ul {/*定義上一層ul li與下一層ul的距離*/
+    z-index: 20;
+    top: 5%;
+    left: 95%;
+}
+.menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: darkgray;
+    background-size: cover;
+    color: black;
+}
+.menu a:hover {
+    background-image: url(img/btn2.png);
+    background-size: cover;
+    color: white;
+}
+.menu li:hover > ul {
+    display: block; /*移動到li，li下一層的ul才顯示*/
+}
+body{
+        background-image:url(img/mi.jpg);
+    }
+</style>
+</head>
+<body style="color:rgb(255, 255, 255);">
+<div style="text-align:center;"><h1>格洛克17手槍</h1></div>
+<ul class="menu">
+    <li><a href="#">手槍介紹</a>
+        <ul>
+            <li><a href="Handgun-1.html">貝瑞塔92手槍</a></li>
+            <li><a href="Handgun-2.html">格洛克17手槍</a></li>
+            <li><a href="Handgun-3.html">柯特OHWS半自動手槍</a></li>
+            <li><a href="Handgun-4.html">P229型手槍</a></li>
+            <li><a href="Handgun-5.html">92式手槍</a></li>
+            <li><a href="Handgun-6.html">HK P7手槍</a></li>
+        </ul>
+    </li>
+    <li><a href="#">步槍介紹</a>
+        <ul>
+            <li><a href="#">AK47</a></li>
+            <li><a href="#">M16突擊步槍</a></li>
+            <li><a href="#">HK G36突擊步槍</a></li>
+            <li><a href="#">FAMAS突擊步槍</a></li>
+            <li><a href="#">T91戰鬥步槍</a></li>
+            <li><a href="#">AUG突擊步槍</a></li>
+        </ul>
+    </li>
+    <li><a href="#">機槍介紹</a>
+        <ul>
+            <li><a href="#">MG08重機槍</a></li>
+            <li><a href="#">HK MG4輕機槍</a></li>
+            <li><a href="#">ZB26式輕機槍</a></li>
+            <li><a href="#">M134迷你砲機槍</a></li>
+            <li><a href="#">白朗寧M2重機槍</a></li>
+            <li><a href="#">內蓋夫輕機槍</a></li>
+        </ul>
+    </li>
+    <li><a href="#">狙擊槍介紹</a>
+        <ul>
+            <li><a href="#">M82狙擊步槍</a></li>
+            <li><a href="#">SSG 69狙擊步槍</a></li>
+            <li><a href="#">AWM狙擊步槍</a></li>
+            <li><a href="#">M95狙擊步槍</a></li>
+            <li><a href="#">TRG狙擊步槍</a></li>
+            <li><a href="#">M24狙擊步槍</a></li>
+        </ul>
+    </li>
+    <li><a href="#">霰彈槍介紹</a>
+        <ul>
+            <li><a href="#">M1216半自動霰彈槍</a></li>
+            <li><a href="#">M870泵動式霰彈槍</a></li>
+            <li><a href="#">AA-12自動霰彈槍</a></li>
+            <li><a href="#">M1887槓桿式霰彈槍</a></li>
+            <li><a href="#">M1897泵動式霰彈槍</a></li>
+            <li><a href="#">莫斯伯格500泵動式霰彈槍</a></li>
+        </ul>
+    </li>
+    <li><a href="index.html">回首頁</a></li>
+</ul>
+<p><br><br><br><img src="img/HG2.jpg" height="200px">
+<br>克拉克17在1980年設計，是為了回應奧地利陸軍取代華瑟P38手槍的需求而製造的。1983年，該槍成為奧地利陸軍的制式手槍，被命名為P80（Pistole 80）。
+<dl>克拉克17是目前全球執法單位最廣泛使用的手槍之一，而使用量最多的單位是菲律賓國家警察。除了軍警單位外，克拉克17在平民百姓、保安人員和私人軍事承包人員手上也頗為常見。多數使用者都是買來用於競技和自衛等用途，也有人用於犯罪。
+<dt><br>另外，在流行文化方面，克拉克17及其衍生型均以現實世界上優秀的性價比而廣受角色歡迎。此外，前菲律賓總統貝尼格諾·艾奎諾也擁有同款手槍。</dt>
+<dt><br>克拉克17及其衍生型都以其可靠性著稱。因為堅固耐用和簡化的設計，它們能在一些極端的環境下正常運作，並且能使用相當多種類的子彈，更可改裝成衝鋒手槍。而且它的零件數目也不多，因此維修相當方便，也因為發射的舒適性和性價比而令其一直保持著相當的人氣（槍管相對的較靠近握把，所以不需太大握力，也能減少後座力）。</dt>
+<dt><br>和所有克拉克手槍一樣，克拉克17有三個安全裝置，但克拉克公司同時也推出連手動保險版本。據說克拉克手槍可於水下發射，但克拉克公司指出如在水中發射可能引至射手受傷。雖然不是水下手槍，但部分蛙人部隊會裝備克拉克17以應急之用。</dt>
+<dt><br>特點：1.重量輕。採用大量工程塑料，造價低廉，手感好 2.萬無一失的保險機構 3.火力持續好 4.人機工效好。
+</dl></p>
+</body>
+</html>
